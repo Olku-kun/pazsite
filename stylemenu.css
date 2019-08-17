@@ -1,6 +1,40 @@
-.nav {
-    background-color: rgb(110, 110, 110);
+.navigation {
+    background-color: rgb(138, 138, 138);
     color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;}
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-evenly;
+    width: 900px;
+    height: 33px;
+    position: relative;
+    top: 72px;
+    margin: 0% auto;
+    overflow: hidden;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+  background-color: rgb(138, 138, 138);
+  min-width: 100px;
+   z-index: 1;
+}
+.menu>a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 8px 10px;
+}
+.dropdown p:hover { color: rgb(42, 82, 140);}
+.dropdown:hover .menu { 
+    display: block;
+    z-index: 2;
+    }
+    .dropdown>p {
+        margin: 0px;
+        height: 100%;
+    }
+.menu a:hover {
+    background-color: #dddddd;
+}
