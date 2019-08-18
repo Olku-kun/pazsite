@@ -46,10 +46,13 @@ position: relative;
     color: rgb(42, 82, 140);
     font-size: 0.9em;
 }
+.row, .box1, .box2, .cell2 { font-size: 13px}
 .title {
     width: 440px;
     color: rgb(149, 149, 149);
     border-bottom: 1px solid rgb(149, 149, 149);
+    margin-right: calc((100% - 900px)/2);
+    font-size: 15px;
 }
 .row {
     display: flex;
@@ -57,13 +60,11 @@ position: relative;
 }
 .box1 {
     width: 347px;
-    height: 290px;
+    height: 356px;
     border-radius: 0px 20px 0px 0px;
     background: linear-gradient(to top, #ebebee 0%, rgb(234, 237, 240) 65%, white 100%);
-        display: flex;
-   margin: 50px;
-    justify-content: center;
-    padding: 10px;
+        margin: 50px;
+        padding: 20px;
     color: #323233;
     border: 2px solid #ebebee;
 }
@@ -78,11 +79,23 @@ position: relative;
     height: 175px;
     border-radius: 0px 20px 0px 0px;
     background: linear-gradient(to top, #ebebee 0%, rgb(234, 237, 240) 65%, white 100%);
-        display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     padding: 10px;
     color: #323233;
     border: 2px solid #b8b8b9;
     margin: 20px;
+}
+.blue {
+    color: royalblue;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid lightgrey;
+}
+.bold { font-weight: bold;
+color: grey;
+}
+.link { 
+    display: block;
+    text-decoration: none;
 }

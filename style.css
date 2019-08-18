@@ -155,17 +155,13 @@ border-left:none;
 .third-cube {
     background-image: url("images/3.jpg");
 }
-h3 {
-    display: inline-block;
-        font-weight: bold;
-    margin: 0px;
-    font-size: 14px;
-}
+
 .cell>h3,.cell-map>h3 {
     border-bottom: 2px solid #b8b8b9;
     padding: 5px;
-    
+    font-size: 14px;
     display: block;
+    margin: 0px;
 }
 .cell-map {
     width: 292px;
@@ -201,5 +197,9 @@ justify-content: space-between;
                 color: #323233;
         
         }
-
+.form-text {
+    font-size:12px;
+    color: grey;
+    padding: 5px;
+}
         
