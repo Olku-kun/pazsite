@@ -113,8 +113,39 @@ border-left:none;
     padding: 10px;
     color: #323233;
     border: 2px solid #b8b8b9;
-
 }
+#cf {
+    position: relative;
+    height: 110px;
+    width: 268px;
+}
+#cf img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1s ease-in-out;
+}
+@keyframes cfFadeInOut {
+    0% {
+    opacity:1;
+  }
+  45% {
+  opacity:1;
+  }
+  55% {
+  opacity:0;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+  
+  #cf img.top {
+  animation-name: cfFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  }
 .first-cube {
     background-image: url("images/1.jpg");
 }
