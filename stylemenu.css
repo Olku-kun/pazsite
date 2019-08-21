@@ -1,5 +1,5 @@
 .navigation {
-    background-color: rgb(149, 149, 149);
+    background-color: rgb(173, 173, 173);
     color: white;
         font-size: 16px;
         font-weight: bold;
@@ -7,8 +7,8 @@
         justify-content: space-evenly;
     width: 900px;
     height: 33px;
-   position: relative;
-    top: 72px;
+    position: relative; 
+    top: 72px; 
     margin: 0% auto;
     }
 .dropdown {
